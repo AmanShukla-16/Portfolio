@@ -3,63 +3,176 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Aman Shukla | Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
+<!-- HERO SECTION -->
+
 <header class="hero">
+
+    <nav>
+        <h2 class="logo">Aman.</h2>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+
     <div class="hero-content">
+
         <img src="profile.jpg" alt="Profile" class="profile-img">
-        <h1>Aman Shukla</h1>
-        <p>Web Developer | AI Enthusiast</p>
+
+        <h1>Hi, I'm <span>Aman Shukla</span></h1>
+
+        <p class="hero-text">
+            Software Developer • AI/ML Enthusiast • Web Developer
+        </p>
 
         <div class="buttons">
-            <a href="#" class="btn">Download Resume</a>
-            <a href="https://github.com/AmanShukla-16" target="_blank" class="btn">
-    GitHub
-</a>
+
+            <a href="resume.pdf"
+               target="_blank"
+               class="btn">
+               Resume
+            </a>
+
+            <a href="https://github.com/AmanShukla-16"
+               target="_blank"
+               class="btn">
+               GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/aman-shukla-073948288"
+               target="_blank"
+               class="btn">
+               LinkedIn
+            </a>
+
         </div>
+
     </div>
+
 </header>
 
-<section class="about">
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
     <h2>About Me</h2>
-    <p>I am a BCA final-year student passionate about building web apps and AI-based solutions. I focus on clean UI and practical projects.</p>
+
+    <p>
+        I am a final-year BCA student passionate about software development,
+        AI/ML, and building modern web applications. I enjoy creating clean,
+        user-friendly, and practical projects that solve real-world problems.
+    </p>
+
 </section>
 
-<section class="skills">
+<!-- SKILLS -->
+
+<section class="skills" id="skills">
+
     <h2>Skills</h2>
+
     <div class="skill-box">
+
         <span>C</span>
         <span>C++</span>
         <span>Python</span>
         <span>HTML</span>
         <span>CSS</span>
         <span>JavaScript</span>
+        <span>MySQL</span>
+        <span>GitHub</span>
+        <span>Machine Learning</span>
+
     </div>
+
 </section>
 
-<section class="projects">
+<!-- PROJECTS -->
+
+<section class="projects" id="projects">
+
     <h2>Projects</h2>
 
-    <div class="project-card">
-        <h3>SwiftFix Service</h3>
-        <p>Service platform with login, register and user system.</p>
-        <a href="#" class="project-btn">View Project</a>
-    </div>
+    <div class="project-container">
 
-    <div class="project-card">
-        <h3>Placement AI</h3>
-        <p>AI tool to help students prepare for placements.</p>
-        <a href="#" class="project-btn">View Project</a>
+        <!-- PROJECT 1 -->
+
+        <div class="project-card">
+
+            <h3>SwiftFix Service</h3>
+
+            <p>
+                Full-stack service booking platform with authentication,
+                profile management, and responsive UI.
+            </p>
+
+            <div class="tech">
+                HTML • CSS • JavaScript • PHP • MySQL
+            </div>
+
+            <a href="#"
+               class="project-btn">
+               View Project
+            </a>
+
+        </div>
+
+        <!-- PROJECT 2 -->
+
+        <div class="project-card">
+
+            <h3>Placement AI</h3>
+
+            <p>
+                AI-powered resume analyzer and job prediction system
+                built using machine learning.
+            </p>
+
+            <div class="tech">
+                Python • Streamlit • Scikit-learn • Pandas
+            </div>
+
+            <a href="#"
+               class="project-btn">
+               View Project
+            </a>
+
+        </div>
+
     </div>
 
 </section>
 
+<!-- CONTACT -->
+
+<section class="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: amanmshukla16@gmail.com</p>
+
+</section>
+
+<!-- FOOTER -->
+
 <footer>
-    <p>© 2026 Aman Shukla</p>
+
+    <p>© 2026 Aman Shukla | All Rights Reserved</p>
+
 </footer>
 
 </body>
